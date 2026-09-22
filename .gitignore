@@ -12,6 +12,10 @@ yarn-error.log*
 dist/
 dist-ssr/
 
+# SQLite database files
+*.db
+*.db-journal
+
 # Operating system / Editor files
 .DS_Store
 Thumbs.db

@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require('./database/database'); // Initialize SQLite database & schema
 const healthRoutes = require('./routes/health.routes');
 const studentRoutes = require('./routes/student.routes');
 
